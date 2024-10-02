@@ -48,13 +48,13 @@ Version:1.0
 		/*====================================
 		03. Sticky Header JS
 		======================================*/ 
-		jQuery(window).on('scroll', function() {
-			if ($(this).scrollTop() > 200) {
-				$('.header').addClass("sticky");
-			} else {
-				$('.header').removeClass("sticky");
-			}
-		});
+		// jQuery(window).on('scroll', function() {
+		// 	if ($(this).scrollTop() > 200) {
+		// 		$('.header').addClass("sticky");
+		// 	} else {
+		// 		$('.header').removeClass("sticky");
+		// 	}
+		// });
 		
 		/*=======================
 		  Search JS JS
